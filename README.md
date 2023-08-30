@@ -9,7 +9,7 @@ Toda acción relacionada con la herramienta IP es responsabilidad exclusiva del 
 ##
 
 <p align="left">
-	<img src="https://i.imgur.com/CXRWeJM.png" width="75%" height="75%" align="">
+	<img src="https://osint.com.ar/wp-content/uploads/2023/02/20230225_090202-1.gif" width="75%" height="75%" align="">
 </p>
 
 ## Instalación
