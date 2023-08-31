@@ -101,7 +101,7 @@ function process(){
     echo -e "\n${GREEN}[*] Envie este link: ${endColour}$enviar"
     echo $enviar | xclip -sel clip &>/dev/null
     echo -e "${GREEN}[*] Link copiado en la clipboard ${endColour}"
-    echo -e "\n${GREEN}[*] Esperando por conecciones...${endColour}"
+    echo -e "\n${GREEN}[*] Esperando por conexiones...${endColour}"
 
     while true;do
 
