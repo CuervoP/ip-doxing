@@ -18,7 +18,7 @@ Clonar el repositorio y cambiar los permisos
 
 ```markdown
 sudo apt install html2text
-git clone https://github.com/CuervoP/ip
+git clone https://github.com/CuervoP/ip-doxing
 cd ip
 chmod +x ip.sh
 sudo ./ip.sh
