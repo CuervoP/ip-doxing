@@ -14,7 +14,7 @@ function ctrl_c(){
 trap ctrl_c INT
 
 function helpPanel(){
-    echo -e "\n${CYAN}[!] Uso: ./ip.sh -u https://www.example.com -t 30${endColour}"
+    echo -e "\n${CYAN}[!] Uso: sudo ./ip.sh -u https://www.example.com -t 30${endColour}"
     for i in $(seq 1 83); do echo -ne "${CYAN}-"; done; echo -ne "${endColour}"
     echo -e "\n\n\t[-u]${MAGENTA} URL a camuflar${endColour}"
     echo -e "\n\t[-t]${MAGENTA} Tiempo en segundos que se actualiza el script${endColour}${CYAN} Ejemplo: -t 30${endColour}"
@@ -23,7 +23,7 @@ function helpPanel(){
 }
 
 if [ $(id -u) -ne "0" ];then
-	echo -e "\n${RED} [!] Ejecute este script como root...${endColour}"
+	echo -e "\n${RED} [!] Debe ejecutar el script con el SUDO adelante...${endColour}"
 	exit 1
 fi
 
